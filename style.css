@@ -1,0 +1,96 @@
+body {
+    font-family:cursive;
+    background-color: rgba(255, 255, 255, 0.644);
+}
+
+.heading, .footer, .s1, .s2 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.border, .foot {
+    background-color:rgb(180, 102, 28) ;
+    background-position:center;
+    color: white;
+    font-size:40px;
+    letter-spacing: 5px;
+    font-family:'Courier New', Courier;
+    width: 530px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.heading, .footer{
+    background-color:transparent;
+    background-image: url("src/head.jpg");
+    min-height:720px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.s1 {
+    background-image: url("src/2nd.jpg");
+    min-height: 400px;
+}
+
+.s2 {
+    background-image: url("src/3rd.jpg");
+    min-height: 400px;
+}
+
+.s1, .s2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro, .mid, .out{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.intro, .mid {
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.int, .md {
+    color: white;
+}
+
+.int , .md, .ot{
+    
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+
+
+#p2, #p1, #p3 {
+    font-size: 100%;
+}
+
+#h1, #h2, #h3 {
+    font-size: 140%;
+}
+
+
+.sec1, .sec2 {
+    font-size: 250%;
+    letter-spacing: 5px;
+    color: rgb(241, 30, 231);
+
+}
